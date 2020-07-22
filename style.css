@@ -87,7 +87,7 @@ button {
 .transection-container {
   height: 100vh;
   width: 100vw;
-  background-image: url(images/images.jpg);
+  background-image: url(images/images.jpg)
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
