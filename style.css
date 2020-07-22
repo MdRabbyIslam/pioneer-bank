@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  padding: 2rem 0;
+}
+h2 {
+  font-size: 3rem;
+  color: slateblue;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+p,
+input,
+label {
+  font-size: 2.2rem;
+  color: blue;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 0.5rem;
+}
+input:focus,
+input:active {
+  border: none;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  color: white;
+  background-color: royalblue;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+/**codding started*/
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/grass-156.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/**======logIn section======*/
+
+.login-section {
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  transform: translate(50%, -30%);
+}
+.login-heading {
+  margin-bottom: 5rem;
+  color: royalblue;
+  text-shadow: 0.1rem 0.1rem white;
+}
+.signIn-section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/**   transection section   */
+.transection-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/images/images.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+  padding: 10rem;
+}
+.transection-heading {
+  padding: 5rem 0;
+  color: slateblue;
+}
+
+.btn {
+  border: none;
+  font-size: 2.2rem;
+  padding: 1rem 2rem;
+  background-color: slateblue;
+  border-radius: 1rem;
+  outline: none;
+}
+
+.amount-section,
+.amount-input-output {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.deposit,
+.withdraw,
+.balance {
+  border: 3px solid white;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  color: slateblue;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+}

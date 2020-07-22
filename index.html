@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY-Personal-Bank</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-section">
+        <h1 class="text-center login-heading">Welcome to my personal Bank</h1>
+
+        <div class="signIn-section">
+          <label for="email">Email :</label><br />
+          <input type="email" name="emal" id="email" />
+          <label for="password">Password :</label> <br />
+          <input type="password" name="password" id="password" />
+          <button type="submit" id="submit-button" class="btn-submit">
+            signIn
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- * transition section -->
+    <div class="transection-container">
+      <div class="transection-section">
+        <h1 class="text-center transection-heading">MY PIONEER ACCOUNT</h1>
+        <div class="amount-section">
+          <div class="deposit">
+            <h4>Deposit</h4>
+            <h1>$ <span id="currentDiposit">00</span></h1>
+          </div>
+          <div class="withdraw">
+            <h4>Withdraw</h4>
+            <h1>$ <span id="currentWithdraw">00</span></h1>
+          </div>
+          <div class="balance">
+            <h4>Balance</h4>
+            <h1>$ <span id="currentBalance">1240</span></h1>
+          </div>
+        </div>
+        <div class="amount-input-output">
+          <div class="amount-input">
+            <h2>Deposit</h2>
+            <input id="deposit-input" type="text" />
+            <button type="submit" id="deposit-btn" class="btn">Deposit</button>
+          </div>
+          <div class="amount-output">
+            <h2>Withdraw</h2>
+            <input id="withdraw-input" type="text" />
+            <button type="submit" id="withdraw-btn" class="btn">
+              Withdraw
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="transection-area">
+      <h1>MY PIONEER ACCOUNT</h1>
+    </div> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
